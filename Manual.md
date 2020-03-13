@@ -2,15 +2,12 @@
 #### v1.1.0
 
 ## Find Content Usages Manual
---------------------------
 This document provides basic instructions for using the Find Content Usages tool versions 1.0.0 through 1.0.1.
 
 ## Location
------------------
 The tool is available to WebAdmins through the CMS Admin panel. It can be found on the "Admin" tab under "Tools".
 
 ## Search Parameters
------------------
 The first two fields are required for search. The search button is disabled until they are provided.
 
 * *Base Type Selection* - (Required Field) The first dropdown you are presented with is the base content type selector. It will be defaulted to "Select Content Type". You will be required to select from the available types, which are Pages, Blocks, and Media. Once selected, a secondary dropdown will appear with content types that are descendents of the selected type.
@@ -26,7 +23,6 @@ The first two fields are required for search. The search button is disabled unti
 * *Property Filtering* - (Optional) The "+ Add property filter" link will dynamically add dropdowns based on the available properties for the previously selected content type. Based on the type of property, you will be provided with different options for creating conditionals based on the property values. 
 
 ## Results
------------------
 Results will be provided in a table format with the following columns:
 
 ### Id

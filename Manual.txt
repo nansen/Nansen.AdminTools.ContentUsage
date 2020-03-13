@@ -1,4 +1,4 @@
-﻿Nansen.AdminTools.ContentUsage 1.0.1
+﻿Nansen.AdminTools.ContentUsage 1.1.0
 
 Find Content Usages Manual
 --------------------------
@@ -24,6 +24,12 @@ Content Type Select - (Required Field) This field will be populated with content
 Language Select		- (Optional) This field will be populated with the available languages on the site. This field is optional,
 						 and is a way for you to further narrow down your results.
 
+Excluding			- (Optional) A collection of checkboxes that allow you to exclude certain pages based specific statuses. 
+						You can exclude pages based on deleted pages, expired pages, pages that fetch data, and pages that are shortcuts.
+
+Property Filtering	- (Optional) The "+ Add property filter" link will dynamically add dropdowns based on the available properties for the 
+						previously selected content type. Based on the type of property, you will be provided with different options for 
+						creating conditionals based on the property values. 
 
 Results
 -----------------
@@ -48,6 +54,9 @@ Name - The Content Name property. This serves as a link to the provided edit con
 Implemented in Languages - The languages that the content was implemented in. These serve as links to the provided edit page
 							in the CMS for those content items.
 
-Referenced on - Provides a list of content items that refernce this piece of content. Each result serves as a link to the 
+Languages with Matching Property - Based on the property filtering, this will list any languages that the content exists in that
+									 pass the specified conditions.
+
+Referenced on - Provides a list of content items that reference this piece of content. Each result serves as a link to the 
 					edit page of the content that references this result.
 
